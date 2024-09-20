@@ -7,12 +7,13 @@ seg_num= int (input ('Qual o segundo numero da sequencia? '))
 #variavel para armazenar os número primos
 
 primos =[]
+
 for num in range (pri_num, seg_num):
     eh_primo = True  #variavel de controle. 
 
-    i=2 
-    while i <= num //2:
-        if num % 1 ==0:
+    i = 2 
+    while i <= num // 2:
+        if num % i == 0:
             eh_primo = False
             break
         i += 1
