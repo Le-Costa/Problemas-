@@ -6,12 +6,12 @@ seg_num= int (input ('Qual o segundo numero da sequencia? '))
 
 #variavel para armazenar os número primos
 
-primos =[]
+primos =[] #Lista que armazena os numeros primos
 
 for num in range (pri_num, seg_num):
     eh_primo = True  #variavel de controle. 
 
-    i = 2 
+    i = 2 #menor numero divisivel
     while i <= num // 2:
         if num % i == 0:
             eh_primo = False
