@@ -14,8 +14,7 @@ for i in range(1, num+1):
 
 ### range##
 
-first_num = int(
-    input("Qual o primeiro numero da lista que deseja verificar? "))
+first_num = int(input("Qual o primeiro numero da lista que deseja verificar? "))
 sec_num = int(input("Qual o segundo numero da lista que deseja verificar? "))
 
 primos = []
