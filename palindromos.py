@@ -8,4 +8,14 @@
 # Escreva uma função chamada verificar_palindromo que receba uma string como parâmetro
 # e retorne True se a string for um palíndromo, ou False caso contrário.
 
-frase = input("Digite a frase ou palvara decomparação: ")
+'''frase = str(input("Digite a frase ou palvara de comparação: ")).strip().upper()
+
+teste = frase[::-1]
+print (teste)
+
+if frase == teste:
+    print ("É palindromo!!")
+else: 
+    print ("Não é palindromo!!")
+'''
+print (10/5)
