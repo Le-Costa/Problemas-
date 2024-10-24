@@ -40,6 +40,6 @@ print(resultado3)
 # são anteriores ao caracter com acento.
 with open ("C:/Users/10391/Desktop/arquivos txt/Legiao urbana.txt",'r' ) as arquivo: 
     musica = arquivo.read()
-    resultado5 = re.findall(r"(\w+)[\u00C0-\u017F]+", musica)
     
+resultado5 = re.findall(r"(\w+)[\u00C0-\u017F]+", musica) 
 print(resultado5)
